@@ -1,0 +1,126 @@
+﻿body {
+    /* Set up Flexbox to center the entire block of content horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns content to the top of the viewport */
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px 0; /* Add vertical padding */
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.page-content {
+    /* Forces the child elements (.container) to stack vertically */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers each container horizontally within this block */
+    gap: 40px; /* Space between each table container */
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: auto; /* Allows table to define the width */
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    color: #333;
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* --- Common Table Styles --- */
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #666;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 1em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/* --- TABLE 1: Coding Resources (Distinct Styling) --- */
+.table-1 table {
+    border: 2px double #666;
+}
+
+.table-1 th {
+    background-color: #ccc;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 12px 15px;
+}
+
+.table-1 tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+/* --- TABLE 2: Student Marks (Distinct Styling) --- */
+.table-2 table {
+    border: 2px double #666;
+}
+
+.table-2 th {
+    background-color: #777;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Adjust the specific 'Subject Name' header cell */
+.table-2 thead tr:nth-child(2) th:nth-child(2) {
+    background-color: #777;
+    color: white;
+}
+
+.table-2 tfoot td {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+    border-top: 2px solid #666;
+}
+
+
+/* --- TABLE 3: Sales and Profit (Distinct Styling) --- */
+.table-3 table {
+    border: 2px double #666;
+}
+
+.table-3 th {
+    background-color: #ccc;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Top row header styling */
+.table-3 thead tr:first-child th {
+    font-size: 1.1em;
+    padding: 12px 15px;
+}
+
+.table-3 tfoot td {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 15px;
+    border-top: 2px solid #666;
+}
+
+.conclusion {
+    font-size: 1.2em;
+}

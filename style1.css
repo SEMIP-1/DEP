@@ -1,0 +1,167 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background as in the image */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top */
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    background-color: white;
+    border: 1px solid #cceeff; /* Lighter blue border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #007bff; /* Darker blue header */
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+    .content h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 30px;
+        font-size: 1.1em;
+        font-weight: normal;
+    }
+
+.lookup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+    .lookup span {
+        margin-right: 15px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .lookup button {
+        padding: 10px 25px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 0.9em;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .lookup button.sales {
+            background-color: #5cb85c; /* Green for Sales */
+            color: white;
+            border-color: #4cae4c;
+            margin-right: 10px;
+        }
+
+        .lookup button.support {
+            background-color: #f8f8f8; /* Light gray for Support */
+            color: #555;
+            border-color: #ccc;
+        }
+
+        .lookup button.sales:hover {
+            background-color: #4cae4c;
+        }
+
+        .lookup button.support:hover {
+            background-color: #e0e0e0;
+        }
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        flex: 0 0 100px; /* Fixed width for labels */
+        text-align: right;
+        margin-right: 15px;
+        color: #555;
+        font-weight: bold;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="tel"],
+    .form-group textarea {
+        flex: 1;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1em;
+        box-sizing: border-box;
+    }
+
+    .form-group textarea {
+        resize: vertical;
+        min-height: 80px;
+    }
+
+.required-star {
+    color: red;
+    margin-left: 5px;
+    font-size: 1.2em;
+}
+
+.submit-button {
+    display: block;
+    width: 200px;
+    padding: 12px 0;
+    margin: 30px auto 0 auto;
+    background-color: #d9534f; /* Red button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .submit-button:hover {
+        background-color: #c9302c;
+    }
+
+    .submit-button .arrow {
+        margin-left: 8px;
+        font-size: 0.9em;
+        vertical-align: middle;
+    }
+
+.footer-logo {
+    text-align: right;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #888;
+    background-color: #f8f8f8;
+    border-top: 1px solid #eee;
+}
+
+    .footer-logo .sm {
+        font-size: 0.7em;
+        vertical-align: super;
+    }

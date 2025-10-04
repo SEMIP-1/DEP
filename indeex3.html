@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style3.css">
+    <!-- Css file is made using ChartGPT -->
+</head>
+<body>
+    <div class="form-container">
+        <h1>The Complete Form</h1>
+        <form>
+            <fieldset>
+                <legend>Your basic info</legend>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password">
+                </div>
+                <div class="form-group age-group">
+                    <label>Age:</label>
+                    <div>
+                        <input type="radio" id="age-under16" name="age" value="under16">
+                        <label for="age-under16">Under 16</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="age-16orolder" name="age" value="16orolder" checked>
+                        <label for="age-16orolder">16 or Older</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your profile</legend>
+                <div class="form-group">
+                    <label for="biography">Biography</label>
+                    <textarea id="biography"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="courses">Select Courses</label>
+                    <select id="courses">
+                        <option value="computer-science">Computer Science Engineering</option>
+                        <option value="mechanical-engineering">Mechanical Engineering</option>
+                        <option value="electrical-engineering">Electrical Engineering</option>
+                    </select>
+                </div>
+                <div class="form-group interests-group">
+                    <label>Interests:</label>
+                    <div>
+                        <input type="checkbox" id="interest-engineering" name="interests" value="engineering" checked>
+                        <label for="interest-engineering">Engineering</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="interest-business" name="interests" value="business">
+                        <label for="interest-business">Business</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="interest-law" name="interests" value="law">
+                        <label for="interest-law">Law</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="submit-button">SUBMIT</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -21,6 +21,26 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Task", "SQL Task", "{02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Training", "Lectures\2025.09.03\Training\Training.csproj", "{FA526643-8347-44E6-83EF-E703D40A1C00}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2025.9.17_Task 16", "2025.9.17_Task 16", "{93C71EBA-12CA-4913-9925-0CACBE6321E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contact Us", "Contact Us", "{DD55480D-F763-4CD8-9658-10A1FDFE23DC}"
+	ProjectSection(SolutionItems) = preProject
+		index1.html = index1.html
+		style1.css = style1.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{49599AA4-96BC-402E-820E-9C31BDE4B2B1}"
+	ProjectSection(SolutionItems) = preProject
+		index2.html = index2.html
+		style2.css = style2.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Form", "Form", "{0D2C9627-BBCA-49B9-9849-98FDEF46E49A}"
+	ProjectSection(SolutionItems) = preProject
+		indeex3.html = indeex3.html
+		style3.css = style3.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +79,9 @@ Global
 		{D5783BE6-B629-4EC4-8FB4-FE77A3465F39} = {FAE92662-74F0-468C-9B4E-41989673E30D}
 		{8A913221-F858-48EB-83CF-120BA3B5F4FF} = {9FED4FAB-75C9-4F16-9454-36BF4CDC5708}
 		{02EA681E-C7D8-13C7-8484-4AC65E1B71E8} = {9FED4FAB-75C9-4F16-9454-36BF4CDC5708}
+		{DD55480D-F763-4CD8-9658-10A1FDFE23DC} = {93C71EBA-12CA-4913-9925-0CACBE6321E7}
+		{49599AA4-96BC-402E-820E-9C31BDE4B2B1} = {93C71EBA-12CA-4913-9925-0CACBE6321E7}
+		{0D2C9627-BBCA-49B9-9849-98FDEF46E49A} = {93C71EBA-12CA-4913-9925-0CACBE6321E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EE13489F-57F9-4CEF-9551-F3FC656A51E6}
