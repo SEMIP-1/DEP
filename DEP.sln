@@ -37,9 +37,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tables", "Tables", "{49599A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Form", "Form", "{0D2C9627-BBCA-49B9-9849-98FDEF46E49A}"
 	ProjectSection(SolutionItems) = preProject
-		indeex3.html = indeex3.html
 		style3.css = style3.css
+		index3.html = index3.html
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{7055E400-DC82-435F-9EEB-B60EA5FCA1F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
